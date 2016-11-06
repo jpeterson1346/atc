@@ -10,9 +10,9 @@
     "ctr_radius": 80,
     "ctr_ceiling": 18000,
     "initial_alt": 5000,
-    "position": ["N40.639926", "W73.778695"],
+    "position": ["N40.63992575", "W73.77869497222"],
     "rr_radius_nm": 5.0,
-    "rr_center": ["N40.639926", "W73.778695"],
+    "rr_center": ["N40.63992575", "W73.77869497222"],
     "has_terrain": false,
     "wind": {
         "angle": 315,
@@ -47,7 +47,7 @@
         "METSS": ["N40.564167", "W73.934333"],
         "CORVT": ["N40.7998361", "W73.6578694"],
         "_CORVT": ["N40.7998361", "W73.6578694"],
-        "MATTR": ["N40.725392", "W73.711058"],
+        "MATTR": ["N40.72539166667", "W73.71105833333"],
         "SAX": ["N41.0675", "W74.5385"],
         "NEION": ["N41.228333", "W74.580833"],
         "HAAYS": ["N41.32", "W74.467333"],
@@ -96,7 +96,7 @@
         "WUPMA": ["N40.718517", "W73.555031"],
         "_WUPMA": ["N40.718517", "W73.555031"],
         "_RWY4L3": ["N40.6895", "W73.731167"],
-        "CUVKU": ["N40.58616666667", "W73.6795"],
+        "_CUVKU": ["N40.58616666667", "W73.6795"],
         "_RWY4L3to100": ["N40.6925", "W73.654167"],
         "FAMMA": ["N41.00983333333", "W73.68183333333"],
         "_FAMMA": ["N41.00983333333", "W73.68183333333"],
@@ -113,7 +113,7 @@
         "DPK": ["N40.791762", "W73.303678"],
         "DEEZZ": ["N41.11145", "W73.777833"],
         "QUENE": ["N40.6835", "W73.683"],
-        "NAYIK": ["N40.808", "W73.62733333333"],
+        "_NAYIK": ["N40.808", "W73.62733333333"],
         "_QUENE": ["N40.6835", "W73.683"],
         "HEERO": ["N41.168833", "W74.1155"],
         "KURNL": ["N41.201333", "W74.4585"],
@@ -121,10 +121,10 @@
         "_LOKOE": ["N40.55716666667", "W73.71583333333"],
         "_JFKR139intLOKOE": ["N40.549", "W73.63883333333"],
         "DEUCE": ["N40.643", "W73.41283333333"],
-        "TOWIN": ["N40.970833", "W74.959833"],
+        "TOWIN": ["N40.53516666667", "W75.40033333333"],
         "SESKE": ["N40.65683333333", "W73.43233333333"],
         "PZULU": ["N40.62083333333", "W73.39566666667"],
-        "IGIDE": ["N40.59583333333", "W73.65383333333"],
+        "_IGIDE": ["N40.59583333333", "W73.65383333333"],
         "VIDIO": ["N40.3935", "W73.55783333333"],
         "JUDDS": ["N41.6345", "W73.108167"],
         "COATE": ["N41.136333", "W74.695167"],
@@ -132,6 +132,7 @@
         "PUGGS": ["N40.941", "W73.23"],
         "RUSHY": ["N40.69666666667", "W73.701"],
         "_JFKR124toHAPIE": ["N40.59", "W73.6245"],
+        "DEERY": ["N40.656", "W73.28633333333"],
         "CEMUG": ["N40.67116666667", "W73.72916666667"],
         "YAHOO": ["N41.069167", "W69.746167"],
         "ARD": ["N40.253333", "W74.907667"],
@@ -160,7 +161,7 @@
         {
             "name":        ["4L", "22R"],
             "name_offset": [[0, 0], [0, 0]],
-            "end":    [["N40.622", "W73.785667"], ["N40.650509", "W73.763322"]],
+            "end":    [["N40.62202108333", "W73.78558563889"], ["N40.65050936111", "W73.76332211111"]],
             "ils":         [true, true]
         }
     ],
@@ -169,37 +170,37 @@
             "icao": "JFK3",
             "name": "KENNEDY THREE",
             "rwy": {
-                "31L": [["CRI", "A50-|S230-"]],
-                "31R": [["_CRI5DMER039", "A50-|S230-"]]
+                "31L": [["CRI", "A25|S230-"]],
+                "31R": [["_CRI5DMER039", "A20|S230-"]]
             },
             "exitPoints": {
-                "SAX": [["CRI", "A50-|S230-"], ["OGY", "A25+|S250-"], ["_LOKOE", "A70|S250-"], ["ODALE", "A170-"], ["SAX", "A170-"]],
-                "COATE": [["CRI", "A50-|S230-"], ["OGY", "A25+|S250-"], ["_LOKOE", "A70|S250-"], ["ODALE", "A170-"], ["SAX", "A50-|S250-"], ["COATE", "A50-|S250-"]],
-                "NEION": [["CRI", "A50-|S230-"], ["OGY", "A25+|S250-"], ["_LOKOE", "A70|S250-"], ["ODALE", "A170-"], ["NEION", "A50-|S250-"]],
-                "HAAYS": [["CRI", "A50-|S230-"], ["OGY", "A25+|S250-"], ["_LOKOE", "A70|S250-"], ["ODALE", "A170-"], ["HAAYS", "A50-|S250-"]],
-                "GAYEL": [["CRI", "A50-|S230-"], ["OGY", "A25+|S250-"], ["_LOKOE", "A70|S250-"], ["ODALE", "A170-"], ["GAYEL", "A50-|S250-"]],
-                "GREKI": [["CRI", "A50-|S230-"], ["OGY", "A25+|S250-"], ["PUGGS", "A90+|S250-"], ["GREKI", "A110"]],
-                "MERIT": [["CRI", "A50-|S230-"], ["OGY", "A25+|S250-"], ["PUGGS", "A90+|S250-"], ["MERIT", "A110"]],
-                "BAYYS": [["CRI", "A50-|S230-"], ["OGY", "A25+|S250-"], ["PUGGS", "A90+|S250-"], ["BDR", "A110-"], ["BAYYS", "A110"]],
-                "BDR": [["CRI", "A50-|S230-"], ["OGY", "A25+|S250-"], ["PUGGS", "A90+|S250-"], ["BDR", "A110-"]],
-                "BETTE": [["CRI", "A50-|S230-"], ["OGY", "A25+|S250-"], ["_JFKR124toHAPIE", "A70|S250-"], ["BETTE", "A110-|S250"]],
-                "HAPIE": [["CRI", "A50-|S230-"], ["OGY", "A25+|S250-"], ["_JFKR124toHAPIE", "A70|S250-"], ["HAPIE", "A110-|S250-"]],
-                "SHIPP": [["CRI", "A50-|S230-"], ["OGY", "A25+|S250-"], ["_LOKOE", "A70|S250-"], ["_JFKR139intLOKOE", "A70+|S250-"], ["SHIPP", "A120-|S250-"]],
-                "WAVEY": [["CRI", "A50-|S230-"], ["OGY", "A25+|S250-"], ["_LOKOE", "A70|S250-"], ["WAVEY", "A120-|S250-"]],
-                "WHITE": [["CRI", "A50-|S230-"], ["_CRI3DME", "A25+|S230-"], ["RNGRR", "A50-|S250-"], ["DIXIE", "A70|S250-"], ["WHITE", "A70|S250-"]],
-                "DIXIE": [["CRI", "A50-|S230-"], ["_CRI3DME", "A25+|S230-"], ["RNGRR", "A50-|S250-"], ["DIXIE", "A50-|S250-"]],
-                "RNGRR": [["CRI", "A50-|S230-"], ["_CRI3DME", "A25+|S230-"], ["RNGRR", "A50-|S250-"]],
-                "RBV": [["CRI", "A50-|S230-"], ["_CRI3DME", "A25+|S230-"], ["RNGRR", "A50-|S250-"], ["RBV", "A70|S250-"]],
-                "ARD": [["CRI", "A50-|S230-"], ["_CRI3DME", "A25+|S230-"], ["RNGRR", "A50-|S250-"], ["ARD", "A70|S250-"]]
+                "SAX": [["CRI", "A25|S230-"], ["OGY", "A25+|S250-"], ["_LOKOE", "A70|S250-"], ["ODALE", "A170-"], ["SAX", "A170-"]],
+                "COATE": [["CRI", "A25|S230-"], ["OGY", "A25+|S250-"], ["_LOKOE", "A70|S250-"], ["ODALE", "A170-"], ["SAX", "A50-|S250-"], ["COATE", "A50-|S250-"]],
+                "NEION": [["CRI", "A25|S230-"], ["OGY", "A25+|S250-"], ["_LOKOE", "A70|S250-"], ["ODALE", "A170-"], ["NEION", "A50-|S250-"]],
+                "HAAYS": [["CRI", "A25|S230-"], ["OGY", "A25+|S250-"], ["_LOKOE", "A70|S250-"], ["ODALE", "A170-"], ["HAAYS", "A50-|S250-"]],
+                "GAYEL": [["CRI", "A25|S230-"], ["OGY", "A25+|S250-"], ["_LOKOE", "A70|S250-"], ["ODALE", "A170-"], ["GAYEL", "A50-|S250-"]],
+                "GREKI": [["CRI", "A25|S230-"], ["OGY", "A25+|S250-"], ["PUGGS", "A90+|S250-"], ["GREKI", "A110"]],
+                "MERIT": [["CRI", "A25|S230-"], ["OGY", "A25+|S250-"], ["PUGGS", "A90+|S250-"], ["MERIT", "A110"]],
+                "BAYYS": [["CRI", "A25|S230-"], ["OGY", "A25+|S250-"], ["PUGGS", "A90+|S250-"], ["BDR", "A110-"], ["BAYYS", "A110"]],
+                "BDR": [["CRI", "A25|S230-"], ["OGY", "A25+|S250-"], ["PUGGS", "A90+|S250-"], ["BDR", "A110-"]],
+                "BETTE": [["CRI", "A25|S230-"], ["OGY", "A25+|S250-"], ["_JFKR124toHAPIE", "A70|S250-"], ["BETTE", "A110-|S250"]],
+                "HAPIE": [["CRI", "A25|S230-"], ["OGY", "A25+|S250-"], ["_JFKR124toHAPIE", "A70|S250-"], ["HAPIE", "A110-|S250-"]],
+                "SHIPP": [["CRI", "A25|S230-"], ["OGY", "A25+|S250-"], ["_LOKOE", "A70|S250-"], ["_JFKR139intLOKOE", "A70+|S250-"], ["SHIPP", "A120-|S250-"]],
+                "WAVEY": [["CRI", "A25|S230-"], ["OGY", "A25+|S250-"], ["_LOKOE", "A70|S250-"], ["WAVEY", "A120-|S250-"]],
+                "WHITE": [["CRI", "A25|S230-"], ["_CRI3DME", "A25+|S230-"], ["RNGRR", "A50-|S250-"], ["DIXIE", "A70|S250-"], ["WHITE", "A70|S250-"]],
+                "DIXIE": [["CRI", "A25|S230-"], ["_CRI3DME", "A25+|S230-"], ["RNGRR", "A50-|S250-"], ["DIXIE", "A50-|S250-"]],
+                "RNGRR": [["CRI", "A25|S230-"], ["_CRI3DME", "A25+|S230-"], ["RNGRR", "A50-|S250-"]],
+                "RBV": [["CRI", "A25|S230-"], ["_CRI3DME", "A25+|S230-"], ["RNGRR", "A50-|S250-"], ["RBV", "A70|S250-"]],
+                "ARD": [["CRI", "A25|S230-"], ["_CRI3DME", "A25+|S230-"], ["RNGRR", "A50-|S250-"], ["ARD", "A70|S250-"]]
             },
-            "draw": [["CRI", "_CRI3DME"], ["_CRI5DMER039", "CRI", "OGY"], ["_CRI3DME", "RNGRR*"], ["RNGRR", "RBV*"], ["RNGRR", "ARD*"], ["RNGRR", "DIXIE*"], ["RNGRR", "DIXIE", "WHITE*"], ["OGY", "_LOKOE", "ODALE", "SAX*"], ["OGY", "_LOKOE", "ODALE", "SAX", "COATE*"], ["OGY", "_LOKOE", "ODALE", "NEION*"], ["OGY", "_LOKOE", "ODALE", "HAAYS*"], ["OGY", "_LOKOE", "ODALE", "GAYEL*"], ["OGY", "PUGGS", "GREKI*"], ["OGY", "PUGGS", "MERIT*"], ["OGY", "PUGGS", "BDR*"], ["OGY", "PUGGS", "BDR", "BAYYS*"], ["OGY", "BETTE*"], ["OGY", "SHIPP*"], ["OGY", "WAVEY*"], ["OGY", "HAPIE*"]]
+            "draw": [["CRI", "_CRI3DME"], ["_CRI5DMER039", "CRI", "OGY"], ["_CRI3DME", "RNGRR*"], ["RNGRR", "RBV*"], ["RNGRR", "ARD*"], ["RNGRR", "DIXIE*"], ["RNGRR", "DIXIE", "WHITE*"], ["SAX*"], ["SAX", "COATE*"], ["NEION*"], ["HAAYS*"], ["GAYEL*"], ["PUGGS", "GREKI*"], ["PUGGS", "MERIT*"], ["PUGGS", "BDR*"], ["PUGGS", "BDR", "BAYYS*"], ["BETTE*"], ["SHIPP*"], ["WAVEY*"], ["HAPIE*"]]
         },
         "DEEZZ4": {
             "icao": "DEEZZ4",
             "name": "DEEZZ FOUR",
             "rwy": {
-                "31L": [["_315I238SKORR", "S230-"], ["SKORR", "A25-|S250-"], ["CESID", "A25+|S250-"], ["YNKEE", "A25+|S250-"], ["_LOKOE", "A70-|S250-"], ["PUGGS", "A90+|S250-"]],
-                "31R": [["_315I243SKORR", "S230-"], ["SKORR", "A25-|S250-"], ["CESID", "A25+|S250-"], ["YNKEE", "A25+|S250-"], ["_LOKOE", "A70-|S250-"], ["PUGGS", "A90+|S250-"]],
+                "31L": [["_315I238SKORR", "A25-|S230-"], ["SKORR", "A25-|S250-"], ["CESID", "A25+|S250-"], ["YNKEE", "A25+|S250-"], ["_LOKOE", "A70-|S250-"], ["PUGGS", "A90+|S250-"]],
+                "31R": [["_315I243SKORR", "A20-|S230-"], ["SKORR", "A25-|S250-"], ["CESID", "A25+|S250-"], ["YNKEE", "A25+|S250-"], ["_LOKOE", "A70-|S250-"], ["PUGGS", "A90+|S250-"]],
                 "13R": [["_RWY13R3DME", "A060-|S230-"], ["PUGGS", "A90+|S250-"]],
                 "13L": [["_RWY13L3DME", "A060-|S230-"], ["PUGGS", "A90+|S250-"]],
                 "4R" : [["_RWY4L3", "A060-|S230-"], ["_CORVT", "A50-|S250-"]],
@@ -209,16 +210,16 @@
             },
             "exitPoints": {
                 "CANDR": [["DEEZZ", "A50-|S230-"], ["HEERO", "A80+|S250-"], ["KURNL", "A11+"], ["CANDR", "A150+"]],
-                "TOWIN": [["DEEZZ", "A50-|S230-"], ["HEERO", "A80+|S250-"], ["KURNL", "A11+"], ["TOWIN", "A150+"]]
+                "TOWIN": [["DEEZZ", "A50-|S230-"], ["HEERO", "A80+|S250-"], ["KURNL", "A11+"], ["CANDR", "A150+"], ["TOWIN", "A150+"]]
             },
-            "draw": [["SKORR", "CESID", "YNKEE", "_JAMCA", "_WUPMA", "DEEZZ"], ["_CORVT", "DEEZZ"], ["DEEZZ", "HEERO", "KURNL", "CANDR*"], ["DEEZZ", "HEERO", "KURNL", "TOWIN*"]]
+            "draw": [["SKORR", "CESID", "YNKEE"], ["DEEZZ", "HEERO", "KURNL", "CANDR*"], ["DEEZZ", "HEERO", "KURNL", "CANDR", "TOWIN*"]]
         },
         "SKORR3": {
             "icao": "SKORR3",
             "name": "SKORR THREE",
             "rwy": {
-                "31R": ["_315I243SKORR"],
-                "31L": ["_315I238SKORR"]
+                "31R": [["_315I243SKORR", "A20-|S250-"]],
+                "31L": [["_315I238SKORR", "A25-|S250-"]]
             },
             "exitPoints": {
                 "SAX": [["SKORR", "A25-|S250-"], ["CESID", "A25+|S250-"], ["YNKEE", "A25+|S250-"],["_LOKOE", "A70|S250-"], ["ODALE", "A170-"], ["SAX", "A50-|S250-"]],
@@ -240,7 +241,7 @@
                 "RBV": [["SKORR", "A25-|S250-"], ["METSS", "A25+|S250-"], ["RNGRR", "A25+|S250-"], ["RBV", "A50-|S250-"]],
                 "ARD": [["SKORR", "A25-|S250-"], ["METSS", "A25+|S250-"], ["RNGRR", "A25+|S250-"], ["ARD", "A50-|S250-"]]
             },
-            "draw": [["_315I243SKORR", "SKORR"], ["_315I238SKORR", "SKORR"], ["SKORR", "CESID", "YNKEE"], ["SKORR", "METSS", "RNGRR"], ["RNGRR", "RBV*"], ["RNGRR", "ARD*"], ["RNGRR", "DIXIE*"], ["RNGRR", "DIXIE", "WHITE*"], ["YNKEE", "_LOKOE", "ODALE", "SAX*"], ["YNKEE", "_LOKOE", "ODALE", "SAX", "COATE*"], ["YNKEE", "_LOKOE", "ODALE", "NEION*"], ["YNKEE", "_LOKOE", "ODALE", "HAAYS*"], ["YNKEE", "_LOKOE", "ODALE", "GAYEL*"], ["YNKEE", "PUGGS", "GREKI*"], ["YNKEE", "PUGGS", "MERIT*"], ["YNKEE", "PUGGS", "BDR*"], ["YNKEE", "PUGGS", "BDR", "BAYYS*"], ["YNKEE", "BETTE*"], ["YNKEE", "SHIPP*"], ["YNKEE", "WAVEY*"], ["YNKEE", "HAPIE*"]]
+            "draw": [["_315I243SKORR", "SKORR"], ["_315I238SKORR", "SKORR"], ["SKORR", "CESID", "YNKEE"], ["SKORR", "METSS", "RNGRR"], ["RNGRR", "RBV*"], ["RNGRR", "ARD*"], ["RNGRR", "DIXIE*"], ["RNGRR", "DIXIE", "WHITE*"], ["SAX*"], ["SAX", "COATE*"], ["NEION*"], ["HAAYS*"], ["GAYEL*"], ["PUGGS", "GREKI*"], ["PUGGS", "MERIT*"], ["PUGGS", "BDR*"], ["PUGGS", "BDR", "BAYYS*"], ["BETTE*"], ["SHIPP*"], ["WAVEY*"], ["HAPIE*"]]
         }
     },
     "stars": {
@@ -253,31 +254,31 @@
         "PARCH2": {
             "icao": "PARCH2",
             "name": "PARCH TWO",
-            "body": ["PARCH", ["CCC", "A120|S250"], ["ROBER", "A90|S250-"], ["JFK", "A40"]],
+            "body": [["PARCH", "A200|S250"], ["CCC", "A120|S250"], ["ROBER", "A90|S250-"], ["JFK", "A40|S250-"]],
             "draw": ["PARCH", "CCC", "ROBER"]
         },
         "LENDY6": {
             "icao": "LENDY6",
             "name": "LENDY SIX",
-            "body": ["HARTY", "STW", ["LENDY", "A190|S250"], ["LGA", "A130|S250-"]],
+            "body": [["HARTY", "A230|S250"], ["STW", "A210|S250"], ["LENDY", "A190|S250"], ["LGA", "A130|S250-"]],
             "draw": ["HARTY", "STW", "LENDY", "LGA"]
         },
         "IGN1": {
             "icao": "IGN1",
             "name": "KINGSTON ONE",
-            "body": [["IGN", "A190+"], ["LOLLY", "A200"], "DOORE", ["LENDY", "A190|S250"], ["LGA", "A130-|S250-"]],
+            "body": [["IGN", "A220|S250"], ["LOLLY", "A200|S250"], ["DOORE", "A190|S250"], ["LENDY", "A190|S250"], ["LGA", "A130-|S250-"]],
             "draw": ["IGN", "LOLLY", "DOORE", "LENDY", "LGA"]
         },
         "PWL2": {
             "icao": "PWL2",
             "name": "PAWLING TWO",
-            "body": ["PWL", ["LOVES", "A60|S250-"], "BDR", "BELTT", "DPK", ["DEUCE", "A40"]],
+            "body": ["PWL", ["LOVES", "A60|S250"], "BDR", "BELTT", ["DPK", "A40|S210"], ["DEUCE", "A40|S210"]],
             "draw": ["PWL", "LOVES", "BDR", "BELTT", "DPK"]
         },
         "ROBER2": {
             "icao": "ROBER2",
             "name": "ROBER TWO",
-            "body": [["TRAIT", "A240"], "PARCH", ["CCC", "A120|S250"], ["ROBER", "A90"], ["JFK", "A040"]],
+            "body": [["TRAIT", "A240|S250"], ["PARCH", "A200|S250"], ["CCC", "A120|S250"], ["ROBER", "A90|S250-"], ["DEERY", "A40|S230"], ["DEUCE", "A40|S210"]],
             "draw": ["TRAIT", "PARCH", "CCC", "ROBER"]
         }
     },
@@ -340,15 +341,17 @@
         ],
         "type": "cyclic",
         "offset": 0,
-        "period": 30,
-        "frequency": 40,
-        "variation": 10
+        "frequency": 20,
+        "variation": 10,
+        "period": 30
     },
     "arrivals": [
         {
-            "type": "random",
+            "type": "wave",
             "route": "SIE.CAMRN4.KJFK",
             "frequency": 15,
+            "period": 45,
+            "variation": 7,
             "altitude": [9000, 11000],
             "speed": 250,
             "airlines": [
@@ -375,10 +378,10 @@
         {
             "type": "cyclic",
             "route": "HARTY.LENDY6.KJFK",
-            "frequency": 20,
+            "frequency": 15,
             "offset": 0,
             "period": 30,
-            "variation": 10,
+            "variation": 5,
             "altitude": [19000, 23000],
             "speed": 250,
             "airlines": [
@@ -478,9 +481,9 @@
             "type": "surge",
             "route": "TRAIT.ROBER2.KJFK",
             "frequency": 20,
-            "offset": 0,
+            "offset": 20,
             "period": 40,
-            "entrail": [7, 25],
+            "entrail": [10, 30],
             "altitude": 24000,
             "speed": 250,
             "airlines": [
@@ -538,12 +541,12 @@
             ]
         },
         {
-            "type": "cyclic",
+            "type": "wave",
             "route": "PARCH.PARCH2.KJFK",
             "frequency": 10,
-            "offset": 5,
+            "offset": 0,
             "period": 40,
-            "variation": 3,
+            "variation": 5,
             "altitude": 12000,
             "speed": 250,
             "airlines": [
@@ -601,9 +604,10 @@
             ]
         },
         {
-            "type": "random",
+            "type": "wave",
             "route": "PWL.PWL2.KJFK",
-            "frequency": 10,
+            "frequency": 11,
+            "variation": 10,
             "altitude": [6000, 9000],
             "speed": 250,
             "airlines": [
